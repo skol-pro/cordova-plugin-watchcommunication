@@ -1,0 +1,28 @@
+{
+    "name": "cordova-plugin-watchcommunication",
+    "version": "1.0.0",
+    "description": "A Cordova plugin for communicating between an iOS app and its Apple Watch companion app.",
+    "cordova": {
+      "id": "cordova-plugin-watchcommunication",
+      "platforms": [
+        "ios"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/skol-pro/cordova-plugin-watchcommunication.git"
+    },
+    "keywords": [
+      "cordova",
+      "apple watch",
+      "watchcommunication",
+      "ios",
+      "watchos"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/skol-pro/cordova-plugin-watchcommunication/issues"
+    },
+    "homepage": "https://github.com/skol-pro/cordova-plugin-watchcommunication"
+  }
+  
