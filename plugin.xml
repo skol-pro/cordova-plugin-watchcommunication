@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-watchcommunication"
+        version="0.0.1">
+    <name>WatchCommunication</name>
+    <description>Custom plugin to communicate with the Watch app</description>
+    <license>MIT</license>
+    <keywords>cordova,watch,communication</keywords>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="WatchCommunication">
+                <param name="ios-package" value="WatchCommunication" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/WatchCommunication.m" />
+    </platform>
+</plugin>
