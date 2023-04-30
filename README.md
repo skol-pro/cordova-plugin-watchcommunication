@@ -12,7 +12,7 @@ This plugin simplifies bidirectional communication between a Cordova application
 To install the plugin, run the following command in your Cordova project directory:
 
 ```bash
-cordova plugin add cordova-plugin-apple-watch-communication
+cordova plugin add https://github.com/skol-pro/cordova-plugin-watchcommunication.git
 ```
 
 ## Usage
